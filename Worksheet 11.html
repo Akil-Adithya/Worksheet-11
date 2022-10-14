@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <style>
+            .para{
+                font-size:15px;font-family:Tahoma;text-align:left;color:#246dff
+            }
+            .para2{
+                font-size:15px;font-family:Tahoma;text-align:right;color:#246dff
+            }
+            .para3{
+                font-size:15px;font-family:Tahoma;text-align:left;color:#246dff;list-style-type:circle
+            }
+            .h{
+                font-family:Courier New;text-align:center;background-color:#6be7ad
+            }
+        </style>
+        <script>
+            function bigImg(x) {
+              x.style.height = "100%";
+              x.style.width = "100%";
+            }
+            
+            function normalImg(x) {
+              x.style.height = "50%";
+              x.style.width = "50%";
+            }
+        </script>
+    </head>
+    <body bgcolor="FFFDD1">
+            <h1 class="h" style="font-size:50px;" onmouseover="style.color='#246dff'" onmouseout="style.color='black'">
+            Worksheet 11
+        </h1>
+        <center>
+            <img src="Logo.png" alt="My picture" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+        </center>
+        
+        
+    </body>
+</html>
